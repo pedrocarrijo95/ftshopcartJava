@@ -65,7 +65,7 @@ OU
 
   
 
- - Para criarmos um novo arquivo terraform, simplesmente adicionamos um
+ - Para criarmos um novo arquivo terraform simplesmente adicionamos um
    novo arquivo de texto com o nome **"apigateway.tf"** ou então
    qualquer outro nome mas com a extensão **".tf"**.
 
