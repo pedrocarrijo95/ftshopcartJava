@@ -137,7 +137,7 @@ Fonte deste código: [Documentação Terraform sobre API GATEWAY](https://regist
 
 ![](./imgs/printstack.PNG)
 
-- Selecione como source **a pasta do seu computador contendo os arquivos .tf baixados.** e quando selecionada a pasta com os arquivos terraform o Resource Manager já irá preencher todos os campos.
+- Selecione como source **a pasta do seu computador contendo os arquivos .tf baixados.** fazendo assim com que o Resource Manager já preencha todos os campos.
 
   
 
