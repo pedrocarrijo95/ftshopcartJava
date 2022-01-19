@@ -21,11 +21,15 @@ Provisionar recursos dentro do OCI utilizando infraestrutura como código.
 
 4. API GATEWAY
 
-**Juntamente com recursos de REDE como:**
+**Juntamente com recursos de REDE e GERENCIAMENTO como:**
 
 1. VCN
 
 2. SUBNETS
+
+3. DYNAMIC GROUPS
+
+4. COMPARTMENTS
 
   
 
@@ -119,11 +123,13 @@ Fonte deste código: [Documentação Terraform sobre API GATEWAY](https://regist
 
 ![](./imgs/printsand.PNG)
 
+
 - Clique em "**Developer Services**"
 
   
 
 ![](./imgs/printdevserv.PNG)
+
 
 - Nas opcões que aparecer selecione "**Resource Manager**".
 
@@ -131,13 +137,14 @@ Fonte deste código: [Documentação Terraform sobre API GATEWAY](https://regist
 
 ![](./imgs/printorm.PNG)
 
+
 - Selecione e crie uma nova **STACK**
 
   
 
 ![](./imgs/printstack.PNG)
 
-- Selecione como source **a pasta do seu computador contendo os arquivos .tf baixados.** fazendo assim com que o Resource Manager já preencha todos os campos.
+- Selecione como source **a pasta do seu computador contendo os arquivos .tf baixados**, fazendo assim com que o Resource Manager já preencha todos os campos.
 
   
 
@@ -145,17 +152,21 @@ Fonte deste código: [Documentação Terraform sobre API GATEWAY](https://regist
 
 - Clique em NEXT e podemos conferir as infos sobre os recursos que serão provisionados.
 
-- Selecione um compartment como primeira opção e o restante não será necessário alterar, clique em NEXT.
+- Selecione um compartment como primeira opção e o restante não será necessário alterar.
+
+- Clique em NEXT.
 
   
 
 ![](./imgs/printstackcomp.PNG)
+
 
 - Nessa nova tela irá pedir para conferir as informações e clique em CREATE
 
   
 
 ![](./imgs/printstackcreate.PNG)
+
 
 - Criado nossa STACK vamos agora clicar em PLAN
 
@@ -166,6 +177,7 @@ Fonte deste código: [Documentação Terraform sobre API GATEWAY](https://regist
   
 
 ![](./imgs/printplan2.PNG)
+
 
 - Após concluído nosso PLAN, vamos agora voltar para nossa STACK e clicar em APPLY para de fato iniciar os provisionamentos e isso irá durar em torno de uns 20 minutos.
 
@@ -200,8 +212,12 @@ Fonte deste código: [Documentação Terraform sobre API GATEWAY](https://regist
 
 4. API GATEWAY
 
-**Juntamente com recursos de REDE como:**
+**Juntamente com recursos de REDE e GERENCIAMENTO como:**
 
 1. VCN
 
 2. SUBNETS
+
+3. DYNAMIC GROUPS
+
+4. COMPARTMENTS
